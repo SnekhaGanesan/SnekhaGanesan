@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INVITATION</title>
+  <style>
+    body{ 
+      background-image: url("first\ img.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  
+    /* Optional: Add some basic styling to the button */
+    .button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<button class="button" onclick="openImage()">Open Image</button>
+
+<script>
+function openImage() {
+    // Change the image source to the URL of the image you want to open
+    var imageUrl = 'weds.jpg'; // Replace 'path_to_your_image.jpg' with your image URL
+    // Open the image in a new window
+    window.open(imageUrl, '_blank');
+}
+</script>
+
+</body>
+</html>
